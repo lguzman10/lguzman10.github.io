@@ -320,6 +320,7 @@ h1{
     outline: 2px solid rgb(35, 17, 192);
   }
 
+  /*----- MEDIA QUERIES ------------ */
   
   @media screen and (min-width: 1024px) and (max-width: 1190px){
     .caja{
@@ -345,6 +346,72 @@ h1{
     .btn-pagar{
         margin-left: 200px;
     }
+  }
+
+  /*----- PENDIENTE------------ */
+  
+  @media screen and (min-width: 720px) and (max-width: 779px){
+    .contenedor{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-height: fit-content;
+    }
+
+    .contenedor-barra-estado{
+        width: 100%;
+        max-width: 100%;
+        height: 100px;
+        overflow: visible;
+    } 
+    
+    .progreso-contenedor{
+        position: relative;
+        max-width: 100%;
+        width: 350px;
+        margin-left: 5500px;
+    }
+
+    .caja{
+        width: 100%;
+        max-width: 700px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0px 0px 0px;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+
+    .tarjeta{
+        max-width: 100%;
+        max-width: 150px;
+        margin: 30px 0px 30px 120px;
+        padding: 0;
+    }
+
+    .formulario-tarjeta{
+        align-self: center;
+        margin-bottom: 0;
+    }
+
+    .btn-pagar{
+        width: 350px;
+        z-index: 2;
+        margin: 200px 50px 30px 80px;
+    }
+
+    .contenedor-caja{
+        margin: 0;
+        align-self: center;
+        margin-bottom: 50px;
+        position: absolute;
+        top: 920px;
+        z-index: 1;
+    }
+
   }
 
   @media screen and (min-width: 780px) and (max-width: 1023px){
@@ -397,7 +464,161 @@ h1{
 
   }
 
-  @media screen and (min-width: 390px) and (max-width: 779px){
+  @media screen and (min-width: 360px) and (max-width: 374px){
+    .contenedor{
+        width: 100%;
+        max-width: 90%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-height: fit-content;
+        margin-bottom: 1px;
+    }
+
+    .contenedor-barra-estado{
+        width: 20%;
+        max-width: 100%;
+        height: 100px;
+        overflow: visible;
+    } 
+    
+    .progreso-contenedor{
+        position: relative;
+        max-width: 100%;
+        width: 220px;
+        margin-left: 300px;
+    }
+    
+    .caja{
+        width: 100%;
+        max-width: 700px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0px 0px 0px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    .tarjeta{
+        max-width: 90%;
+        align-self: center;
+        margin: 30px 0px 30px 0px;
+        padding: 0;
+    }
+
+    .formulario-tarjeta{
+        align-self: center;
+        max-width: 90%;
+    }
+
+    .formulario-tarjeta select{
+        font-size: 13px;
+    }
+
+    .btn-pagar{
+        width: 250px;
+        z-index: 2;
+        margin: 200px 50px 30px 30px;
+    }
+
+    .contenedor-caja{
+        width: 300px;
+        margin: 0;
+        align-self: center;
+        margin-bottom: 50px;
+        position: absolute;
+        top: 920px;
+        z-index: 1;
+    }
+
+    .tarjeta > div {
+        padding: 1px 10px 210px 15px;
+        max-height: 200px;
+    }
+
+  }
+
+  @media screen and (min-width: 375px) and (max-width: 392px){
+    .contenedor{
+        width: 100%;
+        max-width: 90%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-height: fit-content;
+        margin-bottom: 1px;
+    }
+
+    .contenedor-barra-estado{
+        width: 20%;
+        max-width: 100%;
+        height: 100px;
+        overflow: visible;
+    } 
+    
+    .progreso-contenedor{
+        position: relative;
+        max-width: 100%;
+        width: 220px;
+        margin-left: 300px;
+    }
+    
+    .caja{
+        width: 100%;
+        max-width: 700px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0px 0px 0px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    .tarjeta{
+        max-width: 90%;
+        align-self: center;
+        margin: 30px 0px 30px 0px;
+        padding: 0;
+    }
+
+    .formulario-tarjeta{
+        align-self: center;
+        max-width: 90%;
+    }
+
+    .formulario-tarjeta select{
+        font-size: 13px;
+    }
+
+    .btn-pagar{
+        width: 250px;
+        z-index: 2;
+        margin: 200px 50px 30px 30px;
+    }
+
+    .contenedor-caja{
+        width: 300px;
+        margin: 0;
+        align-self: center;
+        margin-bottom: 50px;
+        position: absolute;
+        top: 920px;
+        z-index: 1;
+    }
+
+    .tarjeta > div {
+        padding: 1px 10px 210px 15px;
+        max-height: 200px;
+    }
+
+  }
+
+  @media screen and (min-width: 393px) and (max-width: 779px){
     .contenedor{
         width: 100%;
         max-width: 90%;
