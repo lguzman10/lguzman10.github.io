@@ -52,6 +52,21 @@ header .navbar-dark .navbar-toggler{
     border: 0;
 }
 
+header .menu a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block; /*Investigar esta propiedad*/
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+header .menu a:hover{
+    text-decoration: underline;
+}
+
+
 header .textos{
     width: 100%;
     color: #fff;
