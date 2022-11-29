@@ -308,7 +308,7 @@ input {
   
   #container {
     width: 50%;
-    height: 680px;
+    height: auto;
     border: solid 3px #474544;
     max-width: 768px;
     margin-bottom: 60px;
