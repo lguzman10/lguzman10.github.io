@@ -19,9 +19,10 @@ body{
 /*------------------ HEADER ----------------------*/
 
 header{
-    background: url('../img/bg.jpg') #49a3d6;
+    background: url('../img/bg.jpg') #fff;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     max-height: 600px;
 }
 
