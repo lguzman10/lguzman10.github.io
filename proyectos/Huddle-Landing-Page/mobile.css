@@ -1,0 +1,73 @@
+@media screen and (max-width: 1100px) {
+    .right-content h1{
+        font-size: 2rem;
+    }
+
+    .right-content p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.925rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        background: url(img/bg-mobile.svg) no-repeat top;
+        background-size: contain;
+        background-color: var(--violet);
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-content h1{
+        max-width: none;
+        text-align: center;
+    }
+
+    .right-content p{
+        text-align: center;
+    }
+
+    .register-container{
+        text-align: center;
+    }
+
+    .register-container a{
+        padding: 0.6rem 5rem;
+    }
+
+    .socials-container{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    main{
+        padding: 0 2.5rem;
+    }
+
+    .left-content img{
+        max-width: 300px;
+    }
+
+    .right-content h1{
+        font-size: 1.4rem;
+    }
+
+    .right-content p{
+        font-size: 0.8rem;
+    }
+
+    .register-container{
+        font-size: 0.825rem;
+        margin-top: 3rem;
+    }
+}
