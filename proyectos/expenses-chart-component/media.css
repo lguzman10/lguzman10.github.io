@@ -1,0 +1,97 @@
+@media screen and (max-width: 500px) {
+    header{
+        width: 25rem;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25rem;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .mon-text-obj{
+        width: 3.5rem;
+    }
+
+
+    .mon, .tue, .wed, .thu, .fri, .sat, .sun{
+        width: 36px;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    header{
+        width: 20rem;
+    }
+
+    .header-amount-text{
+        font-size: 1.5rem;
+    }
+    
+    .title{
+        text-align: center;
+    }
+
+    main{
+        width: 20rem;
+    }
+
+    .mon-text-obj{
+        width: 2.7rem;
+    }
+
+    .mon, .tue, .wed, .thu, .fri, .sat, .sun{
+        width: 30px;
+        margin: 0;
+        padding: 0;
+    }
+
+    span{
+        font-size: 14px;
+    }
+
+    .main-h1-left{
+        font-size: 42px;
+    }
+
+    .main-text-right{
+        margin-left: 5px;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header{
+        width: 18rem;
+    }
+
+    main{
+        width: 18rem;
+    }
+
+    .mon-text-obj{
+        width: 2.5rem;
+    }
+
+    .main-h1-left{
+        font-size: 37px;
+    }
+
+    footer{
+        margin-top: 30px;
+    }
+}
