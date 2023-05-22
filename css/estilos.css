@@ -249,11 +249,11 @@ footer .redes-sociales .instagram:hover {background-color: #eb30d2; border-radiu
 
 @media screen and (max-width: 500px) {
     header .contenedor .contenedor-texto .nombre{
-        font-size: 35px;
+        font-size: 22px;
     }
 
     header .contenedor .contenedor-texto .profesion{
-        font-size: 35px;
+        font-size: 18px;
     }
 
     footer .redes-sociales .contenedor{
