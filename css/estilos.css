@@ -261,3 +261,24 @@ footer .redes-sociales .instagram:hover {background-color: #eb30d2; border-radiu
         padding: 20px;
     }
 }
+
+@media screen and (max-width: 390px){
+
+    header .contenedor-texto{
+        margin-top: 90px;
+    }
+
+    header .contenedor-texto .texto{
+        padding: 20px 40px;
+    }
+
+   
+    header .contenedor .contenedor-texto .nombre{
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    header .contenedor .contenedor-texto .profesion{
+        font-size: 16px;
+    }
+}
