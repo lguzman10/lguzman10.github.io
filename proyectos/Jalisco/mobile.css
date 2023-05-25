@@ -148,7 +148,7 @@
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
     header .menu a{
         font-size: 15px;
     }
