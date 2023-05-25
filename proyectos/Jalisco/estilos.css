@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(img/pexels-rodnae-productions-8639012.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 -250px;
+    background-size: 2600px 1810px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+}
+
+header .menu {
+	width: 100%;
+	text-align:right;
+}
+
+header .menu a {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	display: inline-block;
+	margin: 25px 20px;
+	text-decoration: none;
+	position: relative;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 90%;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.contenedor .texto{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    align-self: flex-start;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.contenedor .texto .cajaDescripcion{
+    max-width: 50%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 15px;
+    /* background: rgba(0, 0, 0, 0.247); */
+    border-radius: 10px;
+}
+
+.contenedor .texto .cajaDescripcion p{
+    font-size: 20px;
+}
+
+.contenedor .start{
+    width: 250px;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    align-self: flex-start;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.contenedor .start:hover{
+    background-color: black;
+    color: white;
+}
+.contenedor .secciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.contenedor .secciones .card{
+    border: 0;
+    transition: transform .2s;
+    width: 500px;
+}
+
+.contenedor .secciones .card:hover{
+    transform: scale(1.11);
+}
+
+.contenedor .secciones .card .card-text{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contenedor .secciones .card img{
+    height: 280px;
+}
+
+.contenedor .acerca-de{
+    max-width: 80%;
+    margin-top: 150px;
+    align-self: center;
+}
+
+.contenedor .acerca-de h3{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contenedor .acerca-de p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.contacto{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(img/pexels-los-muertos-crew-10039940.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.contacto .form{
+    width:400px;
+    height:600px;
+    margin:calc(50vh - 220px) auto;
+    padding-top: 70px;
+    max-width:calc(100vw - 40px);
+    font-family:'Montserrat',sans-serif;
+    position:relative
+}
+
+h2{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color:#ffffff;
+    border-bottom:3px solid #ffffff
+}
+
+.contacto .form input{
+    width:100%;
+    padding:10px;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #ffffff
+}
+
+.contacto .form input:focus{
+    border-bottom:2px solid #ffffff
+}
+
+.contacto .form input{
+    color: #fff;
+}
+
+.contacto .form p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;color:#ffffff
+}
+
+.contacto .form .enviar{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #ffffff;
+    background:0;
+    color:#ffffff;
+    cursor:pointer;
+    transition:all .3s
+}
+
+footer{
+    width: 100%;
+    max-width: 100%;
+    padding-top: 25px;
+    margin-top: -260px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+
+footer .redes-sociales ul{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+footer .redes-sociales ul li{
+    justify-content: space-between;
+    margin: 5px 10px 10px 10px;
+}
+
+footer .social-icons{
+    list-style-type: none;
+    font-size: 30px;
+}
+
+footer .social-icons .fa{
+    color: white;
+}
+
+/*-------------- MEDIAQUERIES -------------------------*/
+
+@media screen and (max-width: 1841px) {
+    .contenedor .texto .cajaDescripcion{
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 1730px) {
+    .contenedor .texto .cajaDescripcion{
+        max-width: 90%;
+    }
+
+    .contenedor .acerca-de{
+        max-width: 80%;
+        margin-top: 100px;
+        padding-bottom: -550px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contenedor .texto .cajaDescripcion{
+        max-width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 391px) {
+    .background{
+        background-size: auto;
+    }
+    .contenedor{
+        max-width: 90%;
+        width: 90%;
+    }
+    .contenedor .texto{
+        font-size: 35px;
+    }
+    .contenedor .texto .cajaDescripcion{
+        max-width: 100%;
+    }
+    
+    .contenedor .start{
+        align-self: center;
+        width: 100%;
+    }
+    .contenedor .secciones{
+        flex-direction: column;
+    }
+    
+    .contenedor .cajaImagenes img{
+        width: 90%;
+        height: auto;
+        margin-top: 15px;
+        padding-bottom: 40px;
+    }
+    
+    .contenedor .cajaImagenes img:hover{
+        transform: none;
+    }
+    
+    .contenedor .cajaImagenes .textoImg1{
+        font-size: 15px;
+        left: 135px;
+    }
+    
+    .contenedor .cajaImagenes .textoImg2{
+        font-size: 15px;
+        top: 88%;
+        left: 45%;
+    }
+    
+    .contenedor .cajaImagenes .textoImg3{
+        font-size: 15px;
+        top: 87%;
+        left: 40%;
+    }
+}

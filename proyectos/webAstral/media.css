@@ -1,0 +1,93 @@
+@media (max-width: 940px){
+  #two-boxes{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  #two-boxes .box:nth-child(2) {
+    display: none;
+  }
+  
+  #two-boxes .box:nth-child(3) {
+    display: none;
+  }
+
+  #two-boxes .box:nth-child(1){
+    background-image: linear-gradient(
+      rgba(241, 238, 238, 0.87),
+      rgba(255, 237, 237, 0.753)
+    ), url(./images/desktop/op1.jpg);
+  }
+
+  #two-boxes .box:nth-child(4){
+    background-image: linear-gradient(
+      rgba(216, 216, 216, 0.87),
+      rgba(255, 237, 237, 0.753)
+    ), url(./images/desktop/op2.jpg);
+  }
+
+}
+@media (max-width: 720px){
+
+  .about .container{
+    padding: 10%;
+  }
+
+  #two-boxes{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  #two-boxes .box{
+    padding: 10%;
+  }
+
+  header h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  header h2{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+.about .container h2,
+#two-boxes .box:nth-child(1) h2,
+#two-boxes .box:nth-child(4) h2{
+  font-size: 2.5rem;
+}
+
+#two-boxes .box:nth-child(1) .cita p,
+.about .container .cita p,
+#two-boxes .box:nth-child(4) .cita p{
+  font-size: 1.2rem;
+  line-height: 25px;
+}
+
+div .cita{
+  height: auto;
+}
+
+
+  footer ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 400px){
+  header h1{
+    font-size: 2.6rem;
+    text-align: center;
+    line-height: 45px;
+  }
+
+  .about .container h2{
+    font-size: 1.9rem;
+  }
+
+
+}
